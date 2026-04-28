@@ -31,7 +31,7 @@ fetchWithPromisesErrorHandling = (url) => {
     setTimeout(() => {
         controller.abort(); // Abort the request after 2 seconds
         console.log("Request aborted");
-    }, 2000);
+    }, );
 
     // The Fetch API is used to make a network request to the specified URL.
     // The `fetch` function returns a promise that resolves to the response of the request.
